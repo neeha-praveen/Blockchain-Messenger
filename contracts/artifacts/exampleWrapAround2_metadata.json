@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decrementUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exampleWrapAround2.sol": "exampleWrapAround2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exampleWrapAround2.sol": {
+			"keccak256": "0xfe5d0f77c8167c31348b4be027556869663f6ce8e265e0fcd1a22644cf05be16",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://de689a197fd70c7495faaa11d05b57b89a4462522c587c918e91f6c44523102f",
+				"dweb:/ipfs/Qmei5eikLt31aebgCsvc5gvWhaxJVZ5mepRqC9J8WrBEpp"
+			]
+		}
+	},
+	"version": 1
+}
