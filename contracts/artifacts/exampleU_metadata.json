@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleUint.sol": "exampleBoolean"
+			"contracts/exampleUint.sol": "exampleU"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/exampleUint.sol": {
-			"keccak256": "0xf7854f0ae5cba9f240945e6d7acf325a49020f36489cfd01788b88d48d68de1f",
+			"keccak256": "0x6dfaa916f617d4f42e0a4bc56313059a876b5559d3f33128f89aa683c4014167",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b859185b57a5bbd7c0790ffda85ff0aecc1c4c9f4df85f035ec69a6cea7bdb5",
-				"dweb:/ipfs/QmY1tV4JJTDWggeZvDkC7wfTVkyXAR7A9LSDB395ixWggN"
+				"bzz-raw://457c879c4ef07b4839de92ca9be76c70988d01690999786ec9a0a03914344f5d",
+				"dweb:/ipfs/QmUd2JTZFX5ntbDQLzp1Dwkb3Qjpg7U3zDsVmyXPgnPYhk"
 			]
 		}
 	},
