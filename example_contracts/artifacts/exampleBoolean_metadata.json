@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
+					}
+				],
+				"name": "setBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleUint.sol": "exampleBoolean"
+			"example_contracts/exampleBoolean.sol": "exampleBoolean"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleUint.sol": {
-			"keccak256": "0xf7854f0ae5cba9f240945e6d7acf325a49020f36489cfd01788b88d48d68de1f",
+		"example_contracts/exampleBoolean.sol": {
+			"keccak256": "0x57c44bcd584c87d3eada361c3d054521f407739ecf3a0f1a3901f52de21ef015",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b859185b57a5bbd7c0790ffda85ff0aecc1c4c9f4df85f035ec69a6cea7bdb5",
-				"dweb:/ipfs/QmY1tV4JJTDWggeZvDkC7wfTVkyXAR7A9LSDB395ixWggN"
+				"bzz-raw://b76d98b3e782f478fef7d80bb23513f27e2d5c37d13d3a7dc9cd16fb4ccb4fbb",
+				"dweb:/ipfs/QmWtWpodebWUBu7SBc9F4aWaTx67iADsxFuDUHwrFPGRpr"
 			]
 		}
 	},
