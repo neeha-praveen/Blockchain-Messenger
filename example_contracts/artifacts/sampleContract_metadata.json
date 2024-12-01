@@ -1,28 +1,34 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "someAddress",
+				"name": "myString",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "string",
 						"name": "",
-						"type": "address"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "updateSomeAddress",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"example_contracts/exampleMsgSender.sol": "exampleMsgSender"
+			"example_contracts/sampleContract.sol": "sampleContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"example_contracts/exampleMsgSender.sol": {
-			"keccak256": "0xb87fcfcd61e4992fff1c0be92539701965ce39151d72f21f668afe58b08164c1",
+		"example_contracts/sampleContract.sol": {
+			"keccak256": "0x0b9120686a9a5b8c535d730a8faf39010c691620ea64106c4b72c92c0f6e0503",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://80079f46d4eca14962e601fc8a773bb512029085133ee1fd71aa57726a80cb82",
-				"dweb:/ipfs/QmdxS58XZhRpmjZ3krJWwMR48tzSp7SF99Ga9DtPRGb6LD"
+				"bzz-raw://ba14ff24ca8bee7822e06c0a403d8c318c8fd2bfd593a96c6cb8e2aff968eb28",
+				"dweb:/ipfs/QmfZKeNUpReiHwT1KSwc5RMJHkrqwyG8DYRz4iNpfUjJms"
 			]
 		}
 	},

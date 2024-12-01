@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleConstructor.sol": "exampleConstructor"
+			"example_contracts/exampleConstructor.sol": "exampleConstructor"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleConstructor.sol": {
+		"example_contracts/exampleConstructor.sol": {
 			"keccak256": "0x6c335ba47300e36dfea986b4187fe4cebbb7f36d8773f1abd23d79d22a924a80",
 			"license": "MIT",
 			"urls": [

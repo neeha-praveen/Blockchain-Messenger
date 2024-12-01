@@ -7,7 +7,27 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAddressBalance",
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,27 +41,21 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_someAddress",
+						"internalType": "address payable",
+						"name": "to",
 						"type": "address"
 					}
 				],
-				"name": "setAddress",
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "someAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdrawAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"example_contracts/exampleAddresses.sol": "exampleAddresses"
+			"example_contracts/sendMoney.sol": "sendWithdrawMoney"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"example_contracts/exampleAddresses.sol": {
-			"keccak256": "0x14967f211050e0052c1458b40b8c665c9061fc9024fb0942b2924601317c0e16",
+		"example_contracts/sendMoney.sol": {
+			"keccak256": "0x0ee3e178290f8f7d594ed7c5fe9acfbce70b932ac88ea8678634530d114757d5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b2c62714061ab20a9f6e630c132f9292ff743cef3c947a0b893dc38757d72dfa",
-				"dweb:/ipfs/QmcjsNWfGGtL2s8pxy1Yrzhk4Xdme4XJLQLE97HK22xxD3"
+				"bzz-raw://30bd5101a05d2d7377b1140fb55be04b3c41230515c59de6449ccc02cd143c9c",
+				"dweb:/ipfs/QmXx6NikCjZeXFBcdKq2x7GoV5B5SiyfM75d56AAJymc2U"
 			]
 		}
 	},
